@@ -1,0 +1,14 @@
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\App.g.cs
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern_MarkupCompile.cache
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\bin\Debug\CommandPattern.exe.config
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\bin\Debug\CommandPattern.exe
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\bin\Debug\CommandPattern.pdb
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\MainWindow.g.cs
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern_MarkupCompile.lref
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\MainWindow.baml
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern.g.resources
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern.Properties.Resources.resources
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern.csproj.GenerateResource.cache
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern.csproj.CoreCompileInputs.cache
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern.exe
+C:\Users\Jamila\source\repos\CommandPattern\CommandPattern\obj\Debug\CommandPattern.pdb

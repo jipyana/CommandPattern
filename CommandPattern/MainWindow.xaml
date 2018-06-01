@@ -1,0 +1,56 @@
+﻿<Window x:Class="CommandPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommandPattern"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        KeyDown="Window_KeyDown"
+        >
+    <!--<Window.InputBindings>
+        <KeyBinding Key="C"
+                    Gesture="CTRL+C"
+                    Command="ApplicationCommands.Open"
+                    FocusManager.GotFocus="KeyBinding_GotFocus" 
+                    >
+        </KeyBinding>
+    </Window.InputBindings>-->
+    <Grid x:Name="Grid1">
+        <ComboBox Name="cmbColors" 
+                  Width="200" Height="40" 
+                  Margin="41,135,551,244"
+                  SelectionChanged="CmbColors_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Fill="{Binding Name}"  Width="16" Height="16" Margin="0,2,5,2" />
+                        <TextBlock Text="{Binding Name}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+       
+
+        <Rectangle x:Name="rect" 
+                   Margin="0,10,0,-10"
+                   HorizontalAlignment="Center"
+                   Width="50"
+                   Height="50"
+                   Fill="Aquamarine"
+                   GotFocus="rect_GotFocus"
+                  
+                   >
+        </Rectangle>
+        <Button x:Name="Undo" 
+                Margin="41,211,551,168"
+                Width="200"
+                Height="40"
+                Content="Undo"
+                Click="UndoButton_Click"
+                />
+
+        
+
+    </Grid>
+</Window>
