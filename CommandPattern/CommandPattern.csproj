@@ -71,7 +71,7 @@
   <ItemGroup>
     <Compile Include="Models\ButtonController.cs" />
     <Compile Include="Models\ICommand.cs" />
-    <Compile Include="Models\ShapeClass.cs" />
+    <Compile Include="Models\ShapeClassCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

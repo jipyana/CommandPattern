@@ -42,31 +42,17 @@ namespace CommandPattern
 
         private void UndoButton_Click(object sender, RoutedEventArgs e)
         {
-            manager.Undo();
+            ShapeClassCommand shapeClass = new ShapeClassCommand(rect, Grid1);
+
+            shapeClass.Undo();
         }
 
-        private void rect_GotFocus(object sender, RoutedEventArgs e)
-        {
-            //CommandManager commandManager = new CommandManager();
-
-            //rect = e.Source as Rectangle;
-            //rect.Fill = cmbColors.Background;
-
-        }
-
+      
         private void CmbColors_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Color selectedColor = (Color)(cmbColors.SelectedItem as PropertyInfo).GetValue(1, null);
             rect.Fill = new SolidColorBrush(selectedColor);
         }
-
-        //private void KeyBinding_GotFocus(object sender, RoutedEventArgs e)
-        //{
-        //    ButtonController n = new ButtonController();
-        //    n.Execute();
-            
-
-        //}
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
@@ -165,7 +151,8 @@ namespace CommandPattern
                 case Key.B:
                     break;
                 case Key.C:
-                    //Call
+                    ShapeClassCommand shape = new ShapeClassCommand(rect, Grid1);
+                    shape.Execute();
 
                     break;
                 case Key.D:
